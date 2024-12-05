@@ -6,10 +6,121 @@ body{
 }
 
 #top{
+    margin-top: -30px;
     height: 200px;
     text-align: center;
     background: url("../images/bgsky3.jpg") no-repeat;
     background-size: cover;
     position: relative;
     color: darkblue;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.titel{
+    font-size: 2.3vw;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+.header-p{
+    font-size: 2vw;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.vliegtuig-header{
+    position: absolute;
+    top: 2vw;
+    left: 34vw;
+}
+
+.news{
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 25%;
+    float: right;
+}
+
+.news h3{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.news p{
+    padding: 0.5vw;
+    color: rgb(77, 77, 77);
+}
+
+.main{
+    width: 74.8%;
+    float: left;
+}
+
+.introduction span{
+    color: darkblue;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 10%;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+    position: inherit;
+}
+.introduction{
+    float: right;
+    width: 80%;
+    text-align: justify;
+    margin: 0vw 1vw 2vw 0vw;
+}
+
+.gallery {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.gallery .foto {
+    display: inline-block;
+    background-color: white;
+    padding: 1vw;
+    border: 1px dashed black;
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+    margin: 1vw;
+}
+
+.foto img{
+    max-width: 200px;
+    width: 100%;
+}
+
+.bottom{
+    clear: both;
+    margin-top: -16px;
+    background-color: dimgrey;
+    padding: 1vw;
+    color: white;
+}
+
+.block1{
+    float: left;
+    margin: 0px 200px 0px 130px;
+}
+
+li{
+    padding: 0.4vw;
+}
+
+.copyright{
+    text-align: center;
 }
